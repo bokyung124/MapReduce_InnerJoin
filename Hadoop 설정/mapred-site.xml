@@ -1,0 +1,22 @@
+<configuration>
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+    <property>
+        <name>yarn.app.mapreduce.am.env</name>
+        <value>HADOOP_MAPRED_HOME=/opt/homebrew/Cellar/hadoop/3.3.6/libexec</value>
+    </property>
+    <property>
+        <name>mapreduce.map.env</name>
+        <value>HADOOP_MAPRED_HOME=/opt/homebrew/Cellar/hadoop/3.3.6/libexec</value>
+    </property>
+    <property>
+        <name>mapreduce.reduce.env</name>
+        <value>HADOOP_MAPRED_HOME=/opt/homebrew/Cellar/hadoop/3.3.6/libexec</value>
+    </property>
+    <property>
+        <name>mapreduce.application.classpath</name>
+        <value>/opt/homebrew/Cellar/hadoop/3.3.6/libexec/etc/hadoop:/opt/homebrew/Cellar/hadoop/3.3.6/libexec/share/hadoop/common/lib/*:/opt/homebrew/Cellar/hadoop/3.3.6/libexec/share/hadoop/common/*:/opt/homebrew/Cellar/hadoop/3.3.6/libexec/share/hadoop/hdfs:/opt/homebrew/Cellar/hadoop/3.3.6/libexec/share/hadoop/hdfs/lib/*:/opt/homebrew/Cellar/hadoop/3.3.6/libexec/share/hadoop/hdfs/*:/opt/homebrew/Cellar/hadoop/3.3.6/libexec/share/hadoop/mapreduce/*:/opt/homebrew/Cellar/hadoop/3.3.6/libexec/share/hadoop/yarn:/opt/homebrew/Cellar/hadoop/3.3.6/libexec/share/hadoop/yarn/lib/*:/opt/homebrew/Cellar/hadoop/3.3.6/libexec/share/hadoop/yarn/*</value>
+    </property>
+</configuration>

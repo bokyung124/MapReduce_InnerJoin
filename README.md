@@ -1,2 +1,2 @@
-# MapReduce_InnerJoin
-SWMU X-Corps
+# MapReduce_Join
+[SMWU X-Corps] 

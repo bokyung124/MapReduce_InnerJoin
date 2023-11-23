@@ -1,0 +1,30 @@
+<configuration>
+    <property>
+        <name>dfs.replication</name>
+        <value>1</value>
+    </property>
+    <property>
+        <name>dfs.namenode.name.dir</name>
+        <value>/Users/bokyung/hadoop/namenode</value>
+    </property>
+    <property>
+        <name>dfs.datanode.data.dir</name>
+        <value>/Users/bokyung/hadoop/datanode</value>
+    </property>
+    <property>
+        <name>dfs.namenode.http-address</name>
+        <value>localhost:50070</value>
+    </property>
+    <property>
+        <name>dfs.namenode.secondary.http-address</name>
+        <value>localhost:50090</value>
+    </property>
+    <property>
+        <name>dfs.datanode.address</name>
+        <value>localhost:50010</value>
+    </property>
+    <property>
+        <name>dfs.datanode.http.address</name>
+        <value>localhost:50075</value>
+    </property>
+</configuration>
